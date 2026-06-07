@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='utf-8'?>
+<productos>
+  <producto>
+    <id>0049570</id>
+    <desc_prod>camisa</desc_prod>
+    <precio>2000</precio>
+    <proveedor>fashionistas</proveedor>
+  </producto>
+  <producto>
+    <id>0769298</id>
+    <desc_prod>jean skinny</desc_prod>
+    <precio>6000</precio>
+    <proveedor>tu moda</proveedor>
+  </producto>
+  <producto>
+    <id>8458909</id>
+    <desc_prod>polera</desc_prod>
+    <precio>3000</precio>
+    <proveedor>el ropero</proveedor>
+  </producto>
+</productos>

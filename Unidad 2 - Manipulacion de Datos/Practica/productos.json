@@ -1,0 +1,22 @@
+{
+  "productos": [
+    {
+      "id": "0049570",
+      "desc_prod": "camisa",
+      "precio": 2000,
+      "proveedor": "fashionistas"
+    },
+    {
+      "id": "0769298",
+      "desc_prod": "jean skinny",
+      "precio": 6000,
+      "proveedor": "tu moda"
+    },
+    {
+      "id": "8458909",
+      "desc_prod": "polera",
+      "precio": 3000,
+      "proveedor": "el ropero"
+    }
+  ]
+}
