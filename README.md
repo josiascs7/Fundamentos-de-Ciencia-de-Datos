@@ -5,12 +5,30 @@ Notebooks y prácticas del curso **Fundamentos de Ciencias de Datos** - TUIA.
 ## Estructura del proyecto
 
 ```
+├── Unidad 2 - Manipulacion de Datos/
+│   ├── Practica/                 # 9 ejercicios resueltos (limpieza, regex, formatos, etc.)
+│   ├── Datasets/                 # Datasets de la unidad
+│   └── *.ipynb                   # Notebooks de la unidad
+├── Unidad 3 - Analisis Exploratorio de Datos/
+│   ├── Práctica/                 # 7 ejercicios resueltos (vinos, titanic, etc.)
+│   ├── Datasets/                 # Datasets de la unidad
+│   └── *.ipynb                   # Notebooks de la unidad
+├── Unidad 4 - Visualizaciones/
+│   ├── Practica/                 # 6 ejercicios resueltos (gráficos, geodatos, etc.)
+│   ├── Datasets/                 # Datasets de la unidad
+│   └── *.ipynb                   # Notebooks de la unidad
 ├── Unidad 6 - Ajustes y Modelos/
 │   ├── Ejemplo/                  # Notebook de ejemplo de regresión lineal
 │   ├── Practica 1/               # Ejercicios: bacterias, esperanza de vida
 │   ├── Practica 2/               # Ejercicios: student data, penguins, advertising, etc.
 │   ├── Datasets/                 # Datasets organizados por práctica
 │   └── *.ipynb                   # Notebooks de la unidad
+├── Unidad 7 - Métodos avanzados/
+│   ├── Datasets/                 # Datasets de la unidad
+│   └── *.ipynb                   # Notebooks de la unidad
+├── Parciales/
+│   ├── Modelo de Examen 1/       # Recuperatorio: consumo energético (EDA + regresión)
+│   └── Modelo de Examen 2/       # Parcial integrador: nacimientos (EDA + regresión múltiple)
 ├── pyproject.toml                # Dependencias del proyecto
 └── .python-version               # Versión de Python requerida (3.11)
 ```
@@ -39,8 +57,7 @@ Notebooks y prácticas del curso **Fundamentos de Ciencias de Datos** - TUIA.
    ```
 
    Esto crea automáticamente el entorno virtual en `.venv/` e instala todos los
-   paquetes listados en `pyproject.toml` (jupyter, pandas, matplotlib, seaborn,
-   statsmodels, openpyxl).
+   paquetes listados en `pyproject.toml`.
 
 ## Seleccionar el intérprete de Python en VS Code
 
@@ -62,14 +79,18 @@ del proyecto:
 
 ## Dependencias
 
-| Paquete       | Uso principal                              |
-|---------------|--------------------------------------------|
-| `jupyter`     | Entorno de notebooks                       |
-| `pandas`      | Manipulación y análisis de datos           |
-| `matplotlib`  | Visualización de datos                     |
-| `seaborn`     | Visualización estadística                  |
-| `statsmodels` | Modelos estadísticos y regresión           |
-| `openpyxl`    | Lectura de archivos Excel (`.xlsx`)        |
+| Paquete        | Uso principal                                      |
+|----------------|----------------------------------------------------|
+| `jupyter`      | Entorno de notebooks                               |
+| `pandas`       | Manipulación y análisis de datos                   |
+| `matplotlib`   | Visualización de datos                             |
+| `seaborn`      | Visualización estadística                          |
+| `statsmodels`  | Modelos estadísticos y regresión                   |
+| `scipy`        | Tests estadísticos y funciones científicas         |
+| `openpyxl`     | Lectura/escritura de archivos Excel (`.xlsx`)      |
+| `pyarrow`      | Lectura/escritura de archivos Parquet              |
+| `lxml`         | Lectura de archivos HTML con pandas                |
+| `rapidfuzz`    | Similitud de cadenas de texto (fuzzy matching)     |
 
 ## Agregar nuevas dependencias
 
